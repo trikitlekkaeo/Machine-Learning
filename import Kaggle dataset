@@ -1,0 +1,10 @@
+pip install opendatasets
+
+import opendatasets as od
+
+od.download("url dataset")
+
+input username
+input key from kaggle
+
+df = pd.read_csv("path of dataset in colab")
