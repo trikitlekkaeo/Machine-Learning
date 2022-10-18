@@ -1,0 +1,4 @@
+import seaborn as sb
+df = pd.read_csv("dataset")
+df.corr()
+sb.heatmap(df.corr(),cmap="coolwarm",annot=True,linecolor= 'white',linewidths=3) //Display Heatmap and result of correlation
